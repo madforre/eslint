@@ -5,7 +5,7 @@
         "es6": true,
         "node": true
     },
-    "extends": ["airbnb"],
+    "extends": ["airbnb", "prettier", "plugin:node/recommended"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -16,11 +16,14 @@
         },
         "ecmaVersion": 2018
     },
-    "plugins": ["react"],
+    "plugins": ["react", "prettier"],
     "rules": {
+        "prettier/prettier": "error",
         "no-unused-vars": "warn",
         "no-console": "off",
         "func-names": "off",
-        "indent": ["warn", 4]
+        "no-process-exit": "off",
+        "object-shorthand": "off",
+        "class-methods-use-this": "off"
     }
 }
