@@ -1,5 +1,10 @@
 # eslint
 air-bnb convention
 
-npm i -D eslint eslint-plugin-node eslint-config-node
-npx install-peerdeps --dev eslint-config-airbnb
+## steps
+
+1.
+  npm i -D eslint eslint-plugin-node eslint-config-node
+
+2.
+  npx install-peerdeps --dev eslint-config-airbnb
