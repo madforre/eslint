@@ -5,3 +5,6 @@ air-bnb convention
 - npx install-peerdeps --dev eslint-config-airbnb
 - npm init -y
 - eslint --init
+
+## References
+https://github.com/airbnb/javascript
